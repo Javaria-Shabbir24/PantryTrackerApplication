@@ -38,6 +38,12 @@ export default function Home() {
              </li>
           ))}
         </ul>
+        {items.length <1 ? ('') :(
+          <div className="flex justify-between p-3">
+          <span>Total</span>
+          <span>${total}</span>
+          </div> 
+        )}
       </div>
 
       </div>
