@@ -1,6 +1,6 @@
 'use client'
 import React ,{useState,useEffect}from "react"; 
-import { collection, addDoc, getDoc, querySnapshot,query,onSnapshot } from "firebase/firestore";
+import { collection, addDoc, getDoc, querySnapshot,query,onSnapshot,deleteDoc,doc } from "firebase/firestore";
 import {db} from'./firebase'
 export default function Home() {
   const [items,setItems]=useState([
@@ -48,7 +48,9 @@ export default function Home() {
   },[]);
   //delete items from database
 
-  
+  const deleteItem = async (id)=>{
+    await deleteDoc(doc(db, 'items',id));
+  }
 
 
   return (
