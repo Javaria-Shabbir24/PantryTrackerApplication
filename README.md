@@ -40,3 +40,7 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+## Demo Video 
+
+Check out the demo of this project on my youtube channel : 
+[Demo Video](https://www.youtube.com/watch?v=rjMkI-47038&t=2s) 
